@@ -68,10 +68,25 @@ section h3.section-subheading {
   background: rgba(0, 91,99,0.2);
   border-top: solid 4px #069d85;
 }
+.main{
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 .seaInput{
   width: 73%;
   background: rgba(0255,0255,0255,0.1);
   border: none;
+}
+.seaInput-hotel{
+  background: rgba(0255,0255,0255,0.1);
+  border: none;
+  border-radius: 0px;
+  color: #ffffff;
+}
+.seaInput-hotel:focus{
+  background: rgba(0255,0255,0255,0.1);
+  border:solid 1px #01b9ff;
+  outline: 0;
 }
 .search-btn{
   border-radius: 0px;
@@ -94,6 +109,10 @@ input::placeholder {
   font-size: 15px;
   padding-left: 10px;
 }
+.select-option{
+  color: #c6c4c4;
+  font-size: 15px;
+}
 .flax-con{
   margin-bottom: -5px;
 }
@@ -106,6 +125,10 @@ input::placeholder {
   width: 3%;
   border-radius: 40px;
   margin-top: -4px;
+}
+.search-name{
+  color: #fff;
+  font-weight: bo
 }
 /*Social*/
 /* fixed social*/
@@ -208,7 +231,7 @@ input::placeholder {
   margin-top: 1%;
 }
 .find-more-main{
-  padding-left: 50%;
+  padding-left: 47%;
   padding-top: 11px;
 }
 .find-more-a{
@@ -492,7 +515,7 @@ cool-text{
 }
 .footer-a{
   color:#fff;
-  font-size: 10px;
+  font-size: 13px;
 }
 .footer-input{
   background: rgba(255,255,255,0.1);
@@ -505,6 +528,44 @@ cool-text{
 }
 .li-style{list-style: none;}
 /*End*/
+
+
+/*HOTEL LIST PAGe*/
+.nav-bg{
+  background: #1d304d;
+}
+.full-row{
+  margin-left: 16%;
+  margin-right: 16%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.filter-hotel{
+  background:#d6f2fc;
+  padding: 18px;
+}
+.filter-hotel-h1{
+  background:#d6f2fc;
+  padding: 18px;
+  border-bottom: solid 1px #fff;
+}
+.filter-h{
+  color: #053ae9;
+  font-weight: bold;
+}
+.filter-lable{
+  color: #737f83;
+}
+.search-hotel{
+  background: #00aeef;
+  padding: 18px;
+}
+.search-button{
+  background: #042182;
+  color: #fff;
+  padding: 8px 28px;
+  box-shadow: 0px 0px 22px 0px #5a5a5a;
+}
 
 @media (max-width: 1080px){
 
@@ -567,7 +628,7 @@ img::-moz-selection {
 }
 
 #mainNav {
-  background-color: #212529;
+  /*background-color: #212529;*/
 }
 
 #mainNav .navbar-toggler {
@@ -591,7 +652,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
-  font-size: 62%;
+  font-size: 68%;
   font-weight: bold;
   padding: 0.75em 0;
   letter-spacing: 1px;
@@ -608,14 +669,17 @@ img::-moz-selection {
     /*font-size: 10%;*/
 
   }
+  .mainNav{
+    background-color: transparent;
+  }
   #mainNav {
     padding-top: 25px;
     padding-bottom: 25px;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
-    border: none;
-    background-color: transparent;
+    border-top: solid 5px #fdea19;
+
   }
   #mainNav .navbar-brand {
     font-size: 1.75em;
@@ -629,7 +693,8 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #212529;
+    background-color: rgba(0,0,0,0.8);
+    border-bottom: solid 5px #fdea19;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -642,12 +707,13 @@ header.masthead {
   color: white;
 
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  border-top: solid 5px #fdea19;
 }
 
 header.masthead .intro-text {
@@ -660,6 +726,7 @@ header.masthead .intro-text .intro-lead-in {
   margin-bottom: 25px;
   font-family: 'Open Sans', sans-serif;
   background: rgba(0, 0, 0, 0.7);
+
 }
 
 header.masthead .intro-text .intro-heading {
@@ -742,8 +809,8 @@ header.masthead .intro-text .intro-heading {
     padding-bottom: 22px;
   }
   header.masthead .intro-text .intro-lead-in {
-    margin-left: 24%;
-    margin-right: 25%;
+    margin-left: 11%;
+    margin-right: 11%;
     margin-bottom: 25px;
     font-family: 'Open Sans', sans-serif;
   }
