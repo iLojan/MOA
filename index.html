@@ -27,6 +27,9 @@
   * {
     box-sizing: border-box;
   }
+  .img{
+    width:100%;
+  }
 
 </style>
 
@@ -83,9 +86,10 @@
 
 
 
-    <header class="masthead " style=" background-image: url('dist/img/main.jpg');">
+    <header class=" "  >
 
-      <div class="container">
+      <div class="container p-0 m-0 slider thing">
+        <div class="masthead img" style="background-image: url('dist/img/hotel2.png');">
         <div class="offers-main">
          <div class="media">
             <img class="align-self-center flax-img" src="dist/img/offers/offers.png" alt="Generic placeholder image">
@@ -99,67 +103,7 @@
 
         </div>
 
-        <div class="intro-text">
 
-          <div class="intro-lead-in ">
-            <div class="row">
-              <div class="col searchMenu "><a href="#" class="search-name">Search</a></div>
-              <div class="col searchMenu search-acti" ><a href="#" class="search-name" ><i class="fa fa-bed"></i>&nbsp;Hotel</a></div>
-              <div class="col searchMenu"><a href="#" class="search-name" ><i class="fa fa-briefcase"></i>&nbsp;Packages</a></div>
-              <div class="col searchMenu"><a href="#" class="search-name" >Offers</a></div>
-              <div class="col searchMenu"></div>
-            </div>
-            <div class="row searchInput">
-              <div class="col-sm-3 col-md-3 pl-0 pb-2" >
-                <input type="text" class="seaInput-hotel form-control" placeholder="Enter a destination or property">
-              </div>
-
-              <div class=" col-sm-2 col-md-2 pl-0 pb-2">
-                <input type="text" class="seaInput-hotel form-control" placeholder="Check in Date">
-              </div>
-
-              <div class=" col-sm-2 col-md-2 pl-0 pb-2">
-                <input type="text" class="seaInput-hotel form-control" placeholder="Check Out Date">
-              </div>
-
-              <div class=" col-sm-1 col-md-1 pl-0 pb-2">
-                <!--<input type="text" class="seaInput-hotel form-control" placeholder="Enter a ">-->
-                <select class="form-control seaInput-hotel select-option">
-                  <option value="1"> adult</option>
-                  <option value="2">2 </option>
-                  <option value="1">3 </option>
-                </select>
-              </div>
-
-              <div class=" col-sm-1 col-md-1 pl-0 pb-2">
-                <select class="form-control seaInput-hotel select-option">
-                  <option value="0"> children</option>
-                  <option value="2">1 </option>
-                  <option value="1">3 </option>
-                </select>
-              </div>
-
-              <div class=" col-sm-1 col-md-1 pl-0 pb-2">
-                <select class="form-control seaInput-hotel select-option">
-                  <option value="0">room</option>
-                  <option value="0">1 </option>
-                  <option value="0">2 </option>
-                  <option value="2">3 </option>
-                  <option value="1">4 </option>
-                </select>
-              </div>
-              <div class=" col-sm-2 col-md-2 pl-0 pb-2">
-                <button class="btn search-btn form-control">Search</button>
-              </div>
-              <!--<input type="text" class="seaInput" placeholder="Enter to find your location, hotel,pagckage,tour...."><button class="btn search-btn">Search</button>-->
-
-
-
-            </div>
-
-          </div>
-
-        </div>
         <div class="user-review mb-3">
 
           <div class="media">
@@ -173,8 +117,96 @@
         </div>
       </div>
 
-    </header>
+        <div class="masthead" style="background-image: url('dist/img/main.jpg');">
+        <div class="offers-main">
+          <div class="media">
+            <img class="align-self-center flax-img" src="dist/img/offers/offers.png" alt="Generic placeholder image">
+            <div class="media-body">
+              <p class="mt-0 flax-con pt-0">UNAWATUNA</p>
+              <h5 class="mt-0 flax-con pt-0">Stay on a beutiful beach</h5>
+              <small class="mt-0 flax-con pt-0">Discover Your next greatadventure, become an explorer to</small><br>
+              <button class="btn search-btn mt-0 ">GET STARTED</button>
+            </div>
+          </div>
 
+        </div>
+
+
+        <div class="user-review mb-3">
+
+          <div class="media">
+            <div class="media-body">
+              <h5 class="mt-0 flax-con">Sleepless beach</h5>
+              <p class="flax-con">Cras sit amet nibh libero</p>
+            </div>
+            <img class="d-flex align-self-center mr-3 ml-1 user-img" src="dist/img/avatar-2.jpg" alt="Generic placeholder image">
+
+          </div>
+        </div>
+      </div>
+      </div>
+    </header>
+    <div class="intro-text">
+
+      <div class="intro-lead-in ">
+        <div class="row">
+          <div class="col searchMenu "><a href="#" class="search-name">Search</a></div>
+          <div class="col searchMenu search-acti" ><a href="#" class="search-name" ><i class="fa fa-bed"></i>&nbsp;Hotel</a></div>
+          <div class="col searchMenu"><a href="#" class="search-name" ><i class="fa fa-briefcase"></i>&nbsp;Packages</a></div>
+          <div class="col searchMenu"><a href="#" class="search-name" >Offers</a></div>
+          <div class="col searchMenu"></div>
+        </div>
+        <div class="row searchInput">
+          <div class="col-sm-3 col-md-3 pl-0 pb-2" >
+            <input type="text" class="seaInput-hotel form-control" placeholder="Enter a destination or property">
+          </div>
+
+          <div class=" col-sm-2 col-md-2 pl-0 pb-2">
+            <input type="text" class="seaInput-hotel form-control" placeholder="Check in Date">
+          </div>
+
+          <div class=" col-sm-2 col-md-2 pl-0 pb-2">
+            <input type="text" class="seaInput-hotel form-control" placeholder="Check Out Date">
+          </div>
+
+          <div class=" col-sm-1 col-md-1 pl-0 pb-2">
+            <!--<input type="text" class="seaInput-hotel form-control" placeholder="Enter a ">-->
+            <select class="form-control seaInput-hotel select-option">
+              <option value="1"> adult</option>
+              <option value="2">2 </option>
+              <option value="1">3 </option>
+            </select>
+          </div>
+
+          <div class=" col-sm-1 col-md-1 pl-0 pb-2">
+            <select class="form-control seaInput-hotel select-option">
+              <option value="0"> children</option>
+              <option value="2">1 </option>
+              <option value="1">3 </option>
+            </select>
+          </div>
+
+          <div class=" col-sm-1 col-md-1 pl-0 pb-2">
+            <select class="form-control seaInput-hotel select-option">
+              <option value="0">room</option>
+              <option value="0">1 </option>
+              <option value="0">2 </option>
+              <option value="2">3 </option>
+              <option value="1">4 </option>
+            </select>
+          </div>
+          <div class=" col-sm-2 col-md-2 pl-0 pb-2">
+            <button class="btn search-btn form-control">Search</button>
+          </div>
+          <!--<input type="text" class="seaInput" placeholder="Enter to find your location, hotel,pagckage,tour...."><button class="btn search-btn">Search</button>-->
+
+
+
+        </div>
+
+      </div>
+
+    </div>
     <section>
       <div class="container">
         <div id="fixed-social">
@@ -933,6 +965,8 @@
             dots: false,
             arrows:false,
             autoplay:true,
+            speed:600,
+            slidesToShow:1
 
 
         });

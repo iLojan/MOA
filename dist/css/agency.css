@@ -120,6 +120,7 @@ input::placeholder {
 .user-review{
   text-align: right;
   padding-bottom: 15px;
+  margin-top: 25%;
 }
 .user-img{
   width: 3%;
@@ -751,12 +752,12 @@ img::-moz-selection {
   }
 }
 
-header.masthead {
+.masthead {
   text-align: center;
   color: white;
-
+  height: 590px;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  /*background-attachment: fixed;*/
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -764,6 +765,32 @@ header.masthead {
   background-size: cover;
   border-top: solid 5px #fdea19;
 }
+
+
+.intro-text {
+  padding-top: 150px;
+  padding-bottom: 100px;
+  position: absolute;
+  bottom: 15em;
+  left: 9em;
+}
+
+ .intro-text .intro-lead-in {
+  font-size: 22px;
+  margin-bottom: 25px;
+  font-family: 'Open Sans', sans-serif;
+  background: rgba(0, 0, 0, 0.7);
+
+}
+
+.intro-text .intro-heading {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 50px;
+  margin-bottom: 25px;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
 
 header.masthead .intro-text {
   padding-top: 150px;
@@ -836,6 +863,7 @@ header.masthead .intro-text .intro-heading {
     margin-left: 0%;
     margin-bottom: -1px;
     padding-top: 108px;
+    color:#fff;
   }
 }
 @media (max-width: 800px){
@@ -844,6 +872,10 @@ header.masthead .intro-text .intro-heading {
     padding-bottom: 12px;
   }
 
+   .intro-text {
+    padding-top: 36px;
+    padding-bottom: 12px;
+  }
   .offers-main {
     margin-left: 0%;
     margin-bottom: 8px;
@@ -869,6 +901,24 @@ header.masthead .intro-text .intro-heading {
     font-family: 'Open Sans', sans-serif;
   }
   header.masthead .intro-text .intro-heading {
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 75px;
+    margin-bottom: 50px;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+
+  .intro-text {
+    padding-top: 46px;
+    padding-bottom: 22px;
+  }
+  .intro-text .intro-lead-in {
+    margin-left: 11%;
+    margin-right: 11%;
+    margin-bottom: 25px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .intro-text .intro-heading {
     font-size: 75px;
     font-weight: 700;
     line-height: 75px;
