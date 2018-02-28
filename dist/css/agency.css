@@ -246,7 +246,7 @@ input::placeholder {
 .offer-section-h1{
   color: #018d78;
   font-weight: bold;
-  padding-left: 15px;
+  padding-left: 0px;
   font-size: 30px;
 }
 .offer-section-card{
@@ -411,7 +411,7 @@ input::placeholder {
 
 /*Tours*/
 .tours-card{
-  width: 237px;
+  width: 240px;
   border-radius: 0px;
   height: 370px;;
 }
@@ -528,7 +528,16 @@ cool-text{
 }
 .li-style{list-style: none;}
 /*End*/
+/*Slick Slider*/
 
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+
+/*END*/
 
 /*HOTEL LIST PAGe*/
 .nav-bg{
@@ -549,12 +558,51 @@ cool-text{
   padding: 18px;
   border-bottom: solid 1px #fff;
 }
+.off-pdd{
+  padding-top: 11px;
+  padding-left: 11px;
+  padding-bottom: 11px;
+}
+.off-lo{
+  font-size: 14px;
+}
+.off-pdd2{
+  padding-top: 11px;
+}
+.off-stong{
+  color: #3847ad;
+}
 .filter-h{
   color: #053ae9;
   font-weight: bold;
 }
 .filter-lable{
   color: #737f83;
+}
+.off-hotel {
+  background: #fff4d9;
+  /*padding: 11px;*/
+}
+.off-img{
+  width: 230px;
+  height: 100%;
+
+}
+.off-icon{
+  background: #ffd401;
+  color: #000;
+  padding: 2px 9px;
+  width: 11%;
+  border-radius: 24px;
+}
+.off-smal-size{
+  font-size: 61%;
+}
+.off-book{
+  background: #00aeef;
+  color: #fff;
+  border-radius: 0px;
+  padding: 6px 22px;
 }
 .search-hotel{
   background: #00aeef;
@@ -628,7 +676,7 @@ img::-moz-selection {
 }
 
 #mainNav {
-  /*background-color: #212529;*/
+  background-color: #1d304d;
 }
 
 #mainNav .navbar-toggler {
@@ -679,6 +727,7 @@ img::-moz-selection {
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border-top: solid 5px #fdea19;
+    background-color: rgba(29,48,77,0.8);
 
   }
   #mainNav .navbar-brand {
@@ -693,7 +742,7 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(29,48,77,0.8);
     border-bottom: solid 5px #fdea19;
   }
   #mainNav.navbar-shrink .navbar-brand {
@@ -735,6 +784,11 @@ header.masthead .intro-text .intro-heading {
   line-height: 50px;
   margin-bottom: 25px;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+
+@media (min-width: 992px) {
+  
 }
 @media (min-width: 576px) {
   .searchMenu {
@@ -1133,6 +1187,45 @@ header.masthead .intro-text .intro-heading {
 }
 
 @media (min-width: 992px) {
+
+
+  #mainNav {
+    background-color: #1d304d;
+  }
+
+  #mainNav .navbar-toggler {
+    font-size: 12px;
+    right: 0;
+    padding: 13px;
+    text-transform: uppercase;
+    color: white;
+    border: 0;
+    background-color: #01b9ff;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  #mainNav .navbar-brand {
+    color: #01b9ff;
+    font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
+  }
+
+  #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+    color: #01b9ff;
+  }
+
+  #mainNav .navbar-nav .nav-item .nav-link {
+    font-size: 68%;
+    font-weight: bold;
+    padding: 0.75em 0;
+    letter-spacing: 1px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #01b9ff;
+  }
+
   .timeline > li {
     min-height: 150px;
   }
