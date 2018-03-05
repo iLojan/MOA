@@ -228,7 +228,7 @@ input::placeholder {
 /*end fixed social*/
 .find-more{
   background: #ffd401;
-  padding: 5px 13px;
+  padding: 9px 18px;
   margin-top: 1%;
 }
 .find-more-main{
@@ -534,7 +534,7 @@ cool-text{
 
 .slick-prev:before,
 .slick-next:before {
-  color: black;
+  color: #969494;
 }
 
 
@@ -565,7 +565,7 @@ cool-text{
   padding-bottom: 11px;
 }
 .off-lo{
-  font-size: 14px;
+  font-size: 10px;
 }
 .off-pdd2{
   padding-top: 11px;
@@ -585,15 +585,15 @@ cool-text{
   /*padding: 11px;*/
 }
 .off-img{
-  width: 230px;
+  width: 240px;
   height: 100%;
 
 }
 .off-icon{
   background: #ffd401;
   color: #000;
-  padding: 2px 9px;
-  width: 11%;
+  padding: 2px 7px;
+  width: 15%;
   border-radius: 24px;
 }
 .off-smal-size{
@@ -615,6 +615,119 @@ cool-text{
   padding: 8px 28px;
   box-shadow: 0px 0px 22px 0px #5a5a5a;
 }
+.list-hotel{
+  box-shadow: 0 0 5px #cacaca;
+  margin-bottom: 29px;
+}
+.hotel-list-h{
+  font-size: 33px;
+}
+.hotel-list-la{
+  font-size: 14px;
+  color: #6d6969;
+}
+.hotel-list-select{
+  color: #00aeef;
+}
+.hotel-list-filter-box{
+  border: solid 2px #00aeef;
+}
+.hotel-list-off{
+  margin-top: -22%;
+}
+.hotel-list-img{
+
+  width: 210px;
+  height: 100%;
+}
+.hotel-list-icon{
+  background: #ffd401;
+  color: #000;
+  padding: 2px 6px;
+  width: 13%;
+  border-radius: 35px;
+}
+.hotel-list-img-padd{
+
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-bottom: 0px;
+
+}
+
+
+/*EMAIL Template*/
+.conform{
+  padding: 3% 7%;
+  background: #f1ebe5;
+  text-align: center;
+  margin-top: 4%;
+  border-style: dashed;
+  border-color: #fedbff;
+}
+.conform-h1{
+  font-size: 25px;
+  color: #02aef0;
+  margin-bottom: 0px;
+}
+.conform-id{
+  font-size: 22px;
+  margin-bottom: 0px;
+}
+.conform-name{
+  font-size: 23px;
+  font-weight: bold;
+}
+.conform-img{
+  width: 208px;
+  /*float: left;*/
+}
+.conform-hotel{
+  /*float: left;*/
+  margin-left: 1%;
+}
+.confir-hotel-name{
+  font-size: 25px;
+  color: #02aef0;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+.conform-icon{
+  background: #ffd401;
+  color: #000;
+  padding: 2px 6px;
+  width: 5%;
+  border-radius: 35px;
+}
+.email-account{
+  padding: 15px;
+  border: solid 2px #02aef0;
+}
+.acc{
+  padding: 11px 1px;
+  border-bottom: solid 1px #868585;
+}
+.acc-font{
+  font-size: 18px;
+  font-weight: 500;
+}
+.samp{
+  margin-top: 2%;
+  background: #e3f6fd;
+  padding: 10px;
+}
+.acc2{
+  padding: 11px 1px;
+}
+.acc-font2{
+  font-size: 18px;
+  font-weight: 500;
+}
+.acc-font2-reight{
+  font-size: 18px;
+  font-weight: 500;
+}
+/**/
 
 @media (max-width: 1080px){
 
@@ -623,12 +736,13 @@ cool-text{
 @media (min-width: 768px) {
   section {
     padding-top: 8px;
-    /*margin-left: 4%*/
+    /*margin-left:%*/
   }
 
   .searchMenu {
     font-size: 7px;
     padding: 9px;
+    text-align: center;
   }
 
 }
@@ -728,7 +842,7 @@ img::-moz-selection {
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border-top: solid 5px #fdea19;
-    background-color: rgba(29,48,77,0.8);
+    background-color: transparent;
 
   }
   #mainNav .navbar-brand {
@@ -744,7 +858,7 @@ img::-moz-selection {
     padding-top: 0;
     padding-bottom: 0;
     background-color: rgba(29,48,77,0.8);
-    border-bottom: solid 5px #fdea19;
+    /*border-bottom: solid 5px #fdea19;*/
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -864,6 +978,29 @@ header.masthead .intro-text .intro-heading {
     margin-bottom: -1px;
     padding-top: 108px;
     color:#fff;
+  }
+  .intro-text{
+    left: 0em;
+    bottom: 0em;
+    margin: 10px;
+  }
+  .user-review{
+    padding-top: 122%;
+  }
+  .user-img {
+    width: 11%;
+    margin-top: 3px;
+  }
+  .find-more-main{
+    padding-left: 35%;
+  }
+  .masthead{
+    height: 713px;
+  }
+  .tours-card {
+    width: 317px;
+    border-radius: 0px;
+    height: 370px;
   }
 }
 @media (max-width: 800px){
@@ -1264,7 +1401,7 @@ header.masthead .intro-text .intro-heading {
   }
 
   #mainNav .navbar-nav .nav-item .nav-link {
-    font-size: 68%;
+    font-size: 64%;
     font-weight: bold;
     padding: 0.75em 0;
     letter-spacing: 1px;
