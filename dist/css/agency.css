@@ -678,6 +678,13 @@ cool-text{
   font-size: 23px;
   font-weight: bold;
 }
+.conform-hotel-ret{
+  top: -16%;
+  position: absolute;
+  z-index: 9;
+  margin-top: 0%;
+  left: 15%;
+}
 .conform-img{
   width: 208px;
   /*float: left;*/
@@ -705,11 +712,14 @@ cool-text{
 }
 .acc{
   padding: 11px 1px;
-  border-bottom: solid 1px #868585;
+  border-bottom:solid 1px #bbb5b5
 }
 .acc-font{
   font-size: 18px;
   font-weight: 500;
+}
+.bor{
+  border-bottom: solid 1px #bbb5b5;
 }
 .samp{
   margin-top: 2%;
@@ -721,11 +731,34 @@ cool-text{
 }
 .acc-font2{
   font-size: 18px;
-  font-weight: 500;
+  font-weight: bold;
+  color:#02aef0
 }
 .acc-font2-reight{
   font-size: 18px;
-  font-weight: 500;
+  font-weight: bold;
+  color:#3848aa;
+}
+.acc-font3{
+  font-size: 18px;
+  font-weight: bold;
+  color:#19627d;
+}
+.acc-font2-reight{
+  font-size: 18px;
+  font-weight: bold;
+  color:#3848aa;
+}
+.email-footer{
+  background: #e3f6fd;
+  padding: 6%;
+}
+.con-btn{
+  padding: 3% 11%;
+  color: #00AAE5;
+  background: #fff;
+  font-weight: bold;
+  border: solid 1px #00AAE5;
 }
 /**/
 
@@ -936,6 +969,20 @@ header.masthead .intro-text .intro-heading {
     font-size: 12px;
     padding: 12px;
   }
+  .conform-img{
+    width: 114px;
+  }
+  .conform-hotel-ret {
+    top: -21%;
+    position: absolute;
+    z-index: 9;
+    margin-top: 0%;
+    left: 10%;
+    width: 13%;
+  }
+  .conform-icon{
+    display: none;
+  }
   /*.find-more-main {*/
     /*padding-left: 237px;*/
     /**/
@@ -1001,6 +1048,17 @@ header.masthead .intro-text .intro-heading {
     width: 317px;
     border-radius: 0px;
     height: 370px;
+  }
+  .conform-img{
+    width: 114px;
+  }
+  .conform-hotel-ret {
+    top: -21%;
+    position: absolute;
+    z-index: 9;
+    margin-top: 0%;
+    left: 10%;
+    width: 13%;
   }
 }
 @media (max-width: 800px){
@@ -1451,6 +1509,17 @@ header.masthead .intro-text .intro-heading {
   }
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 100px 20px 20px;
+  }
+  .conform-hotel-ret{
+    top: -22%;
+    position: absolute;
+    z-index: 9;
+    margin-top: 0%;
+    left: 12%;
+  }
+  .conform-img{
+    width: 208px;
+    /*float: left;*/
   }
 }
 
