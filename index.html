@@ -38,8 +38,28 @@
   <body id="page-top">
 
     <!-- Navigation -->
+     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+       <a href="#" class="navbar-brand">Navbar</a>
+            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarColor1">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarColor1">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a href="#" class="nav-link">
+                hOME
+              </a>
+            </li>
+          </ul>  
+           
+        </div>
+     </nav>
+
+    <!-- Navigation -->
     <nav class="navbar mainNav navbar-expand-lg navbar-dark fixed-top pt-2 pb-2" id="mainNav">
-      <div class="container ml-4 col-lg-12 col-md-12 col-sm-12">
+      <div class="container ml-4 col-lg-12 col-md-12 col-sm-11">
         <a class="navbar-brand js-scroll-trigger" href="#page-top"><img class="logo" src="dist/img/logos/moaLogo.png"></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
@@ -74,7 +94,9 @@
             </li>
 
           </ul>
-          <ul class="navbar-nav text-uppercase navbar-right">
+       
+
+          <ul class="nav justify-content-end pull-right">
             <li class="nav-item float-right">
               <a class="nav-link js-scroll-trigger" href="#contact">Register | Login</a>
             </li>
@@ -147,8 +169,10 @@
         </div>
       </div>
     </div>
-    <div class="intro-text ">
 
+    <section >
+      <div class="container serch-con">
+    <div class="intro-text ">
       <div class="intro-lead-in ">
         <div class="row">
           <div class="col searchMenu "><a href="#" class="search-name">Search</a></div>
@@ -158,19 +182,19 @@
           <div class="col searchMenu"></div>
         </div>
         <div class=" form-row searchInput">
-          <div class="col-sm-3 col-md-3 pl-0 pb-2" >
+          <div class="col-sm-12 col-md-3 pl-0 pb-2" >
             <input type="text" class="seaInput-hotel form-control" placeholder="Enter a destination or property">
           </div>
 
-          <div class=" col-sm-2 col-md-2 pl-0 pb-2">
+          <div class=" col-sm-6 col-md-2 pl-0 pb-2">
             <input type="text" class="seaInput-hotel form-control" placeholder="Check in Date">
           </div>
 
-          <div class=" col-sm-2 col-md-2 pl-0 pb-2">
+          <div class=" col-sm-6 col-md-2 pl-0 pb-2">
             <input type="text" class="seaInput-hotel form-control" placeholder="Check Out Date">
           </div>
 
-          <div class=" col-sm-1 col-md-1 pl-0 pb-2">
+          <div class=" col-sm-3 col-md-1 pl-0 pb-2">
             <!--<input type="text" class="seaInput-hotel form-control" placeholder="Enter a ">-->
             <select class="form-control seaInput-hotel select-option">
               <option value="1"> adult</option>
@@ -179,7 +203,7 @@
             </select>
           </div>
 
-          <div class=" col-sm-1 col-md-1 pl-0 pb-2">
+          <div class=" col-sm-3 col-md-1 pl-0 pb-2">
             <select class="form-control seaInput-hotel select-option">
               <option value="0"> children</option>
               <option value="2">1 </option>
@@ -187,7 +211,7 @@
             </select>
           </div>
 
-          <div class=" col-sm-1 col-md-1 pl-0 pb-2">
+          <div class=" col-sm-3 col-md-1 pl-0 pb-2">
             <select class="form-control seaInput-hotel select-option">
               <option value="0">room</option>
               <option value="0">1 </option>
@@ -196,7 +220,7 @@
               <option value="1">4 </option>
             </select>
           </div>
-          <div class=" col-sm-2 col-md-2 pl-0 pb-2">
+          <div class=" col-sm-3 col-md-2 pl-0 pb-2">
             <button class="btn search-btn form-control">Search</button>
           </div>
           <!--<input type="text" class="seaInput" placeholder="Enter to find your location, hotel,pagckage,tour...."><button class="btn search-btn">Search</button>-->
@@ -208,6 +232,9 @@
       </div>
 
     </div>
+  </div>
+</section>
+<!--  -->
     <section>
       <div class="container">
         <div id="fixed-social">
@@ -227,7 +254,7 @@
           <p class="offer-section-h1">Offers and Promotion</p>
           <div class="row promotion slider">
 
-             <div class="card mr-1 ml-1" style="width: 18rem;">
+             <div class="card mr-1 ml-1 mb-4 shadow" style="width: 18rem;">
             <img class="card-img-top" src="dist/img/offer1.jpg" alt="Card image cap">
             <div class="card-body offer-section-body">
               <p class="card-text offer-section-text">Travel anywhere.. The World is Sale</p>
@@ -235,35 +262,35 @@
             </div>
 
 
-              <div class="card mr-1 ml-1" style="width: 18rem;">
+              <div class="card mr-1 ml-1 mb-4 shadow" style="width: 18rem;">
                 <img class="card-img-top offer-img" src="dist/img/offers2.jpg" alt="Card image cap">
                 <div class="card-body offer-section-body">
                   <p class="card-text offer-section-text">Travel anywhere.. The World is Sale</p>
                 </div>
               </div>
 
-              <div class="card mr-1 ml-1" style="width: 18rem;">
+              <div class="card mr-1 ml-1 mb-4 shadow" style="width: 18rem;">
                 <img class="card-img-top offer-img" src="dist/img/hotel3.png" alt="Card image cap">
                 <div class="card-body offer-section-body">
                   <p class="card-text offer-section-text">Travel anywhere.. The World is Sale</p>
                 </div>
               </div>
 
-              <div class="card mr-1 ml-1" style="width: 18rem;">
+              <div class="card mr-1 ml-1 mb-4 shadow" style="width: 18rem;">
                 <img class="card-img-top offer-img" src="dist/img/hotel3.png" alt="Card image cap">
                 <div class="card-body offer-section-body">
                   <p class="card-text offer-section-text">Travel anywhere.. The World is Sale</p>
                 </div>
               </div>
 
-              <div class="card mr-1 ml-1" style="width: 18rem;">
+              <div class="card mr-1 ml-1 mb-4 shadow" style="width: 18rem;">
                 <img class="card-img-top offer-img" src="dist/img/offers2.jpg" alt="Card image cap">
                 <div class="card-body offer-section-body">
                   <p class="card-text offer-section-text">Travel anywhere.. The World is Sale</p>
                 </div>
               </div>
 
-              <div class="card mr-1 ml-1" style="width: 18rem;">
+              <div class="card mr-1 ml-1 mb-4 shadow" style="width: 18rem;">
                 <img class="card-img-top offer-img" src="dist/img/hotel3.png" alt="Card image cap">
                 <div class="card-body offer-section-body">
                   <p class="card-text offer-section-text">Travel anywhere.. The World is Sale</p>
@@ -288,7 +315,7 @@
           <p class="offer-section-h1">Recommended Articals</p>
           <div class="row artical slider">
 
-              <div class="card mr-1 ml-1 artical-card" >
+              <div class="card mr-1 ml-1 mb-4 shadow artical-card" >
                 <img class="card-img-top artical-img" src="dist/img/tou1.jpg" alt="Card image cap">
                 <div class="card-body offer-section-body">
                   <div class="artical-user">
@@ -300,7 +327,7 @@
                 </div>
               </div>
 
-              <div class="card mr-1 ml-1 artical-card" >
+              <div class="card mr-1 ml-1 mb-4 shadow artical-card" >
                 <img class="card-img-top artical-img" src="dist/img/bea3.png" alt="Card image cap">
                 <div class="ribbon ribbon-top-right"><span>Travel</span></div>
                 <div class="card-body offer-section-body">
@@ -313,7 +340,7 @@
                 </div>
               </div>
 
-              <div class="card mr-1 ml-1 artical-card" >
+              <div class="card mr-1 ml-1 mb-4 shadow artical-card" >
                 <img class="card-img-top artical-img" src="dist/img/bae5.png" alt="Card image cap">
                 <div class="card-body offer-section-body">
                   <p class="card-text offer-section-text mb-2">Tlanjin direct flights to Oklnawa 4-5 days retur tax</p>
@@ -322,7 +349,7 @@
                 </div>
               </div>
 
-              <div class="card mr-1 ml-1 artical-card " >
+              <div class="card mr-1 ml-1 mb-4 shadow artical-card " >
                 <img class="card-img-top artical-img" src="dist/img/iui.jpg" alt="Card image cap">
                 <div class="card-body offer-section-body">
                   <p class="card-text offer-section-text mb-2">Tlanjin direct flights to Oklnawa 4-5 days retur tax</p>
@@ -331,7 +358,7 @@
                 </div>
               </div>
 
-            <div class="card mr-1 ml-1 artical-card" >
+            <div class="card mr-1 ml-1 mb-4 shadow artical-card" >
               <img class="card-img-top artical-img" src="dist/img/bae5.png" alt="Card image cap">
               <div class="card-body offer-section-body">
                 <p class="card-text offer-section-text mb-2">Tlanjin direct flights to Oklnawa 4-5 days retur tax</p>
@@ -339,7 +366,7 @@
                 <label class="float-right pt-1 artical-lable"><strong>5&nbsp;</strong>Comments &nbsp;<strong>5&nbsp;</strong>Likes</label>
               </div>
             </div>
-            <div class="card mr-1 ml-1 artical-card" >
+            <div class="card mr-1 ml-1 mb-4 shadow artical-card" >
               <img class="card-img-top artical-img" src="dist/img/bae5.png" alt="Card image cap">
               <div class="card-body offer-section-body">
                 <p class="card-text offer-section-text mb-2">Tlanjin direct flights to Oklnawa 4-5 days retur tax</p>
@@ -348,7 +375,7 @@
               </div>
             </div>
 
-              <div class="card mr-1 ml-1 artical-card" >
+              <div class="card mr-1 ml-1 mb-4 shadow artical-card" >
                 <div class="ribbon ribbon-top-right"><span>Hotel</span></div>
                 <img class="card-img-top artical-img" src="dist/img/bea4.png" alt="Card image cap">
                 <div class="card-body offer-section-body">
@@ -377,7 +404,7 @@
           <div class="row artical slider">
 
 
-              <div class="card mr-1 ml-1 hotel-card" >
+              <div class="card mr-1 ml-1 mb-4 shadow hotel-card" >
                 <img class="card-img-top artical-img" src="dist/img/hotel3.png" alt="Card image cap">
                 <div class="card-body offer-section-body">
                   <p class="card-text offer-section-text mb-0">Malu Malu Holiday Resort</p>
@@ -392,7 +419,7 @@
                 </div>
               </div>
 
-              <div class="card mr-1 ml-1 hotel-card" >
+              <div class="card mr-1 ml-1 mb-4 shadow hotel-card" >
                 <img class="card-img-top artical-img" src="dist/img/hotel2.png" alt="Card image cap">
                 <div class="card-body offer-section-body">
                   <p class="card-text offer-section-text mb-0">Malu Malu Holiday Resort</p>
@@ -407,7 +434,7 @@
                 </div>
               </div>
 
-              <div class="card mr-1 ml-1 hotel-card" >
+              <div class="card mr-1 ml-1 mb-4 shadow hotel-card" >
                 <img class="card-img-top artical-img" src="dist/img/hotel.png" alt="Card image cap">
                 <div class="card-body offer-section-body">
                   <p class="card-text offer-section-text mb-0">Malu Malu Holiday Resort</p>
@@ -423,7 +450,7 @@
                 </div>
               </div>
 
-              <div class="card mr-1 ml-1 hotel-card" >
+              <div class="card mr-1 ml-1 mb-4 shadow hotel-card" >
                 <img class="card-img-top artical-img" src="dist/img/hotel3.png" alt="Card image cap">
                 <div class="card-body offer-section-body">
                   <p class="card-text offer-section-text mb-0">Malu Malu Holiday Resort</p>
@@ -438,7 +465,7 @@
                 </div>
               </div>
 
-              <div class="card mr-1 ml-1 hotel-card" >
+              <div class="card mr-1 ml-1 mb-4 shadow hotel-card" >
                 <img class="card-img-top artical-img" src="dist/img/hotel4.png" alt="Card image cap">
                 <div class="card-body offer-section-body">
                   <p class="card-text offer-section-text mb-0">Malu Malu Holiday Resort</p>
@@ -453,7 +480,7 @@
                 </div>
               </div>
 
-            <div class="card mr-1 ml-1 hotel-card" >
+            <div class="card mr-1 ml-1 mb-4 shadow hotel-card" >
               <img class="card-img-top artical-img" src="dist/img/hotel4.png" alt="Card image cap">
               <div class="card-body offer-section-body">
                 <p class="card-text offer-section-text mb-0">Malu Malu Holiday Resort</p>
@@ -468,7 +495,7 @@
               </div>
             </div>
 
-            <div class="card mr-1 ml-1 hotel-card" >
+            <div class="card mr-1 ml-1 mb-4 shadow hotel-card" >
               <img class="card-img-top artical-img" src="dist/img/hotel4.png" alt="Card image cap">
               <div class="card-body offer-section-body">
                 <p class="card-text offer-section-text mb-0">Malu Malu Holiday Resort</p>
@@ -512,7 +539,7 @@
           <div class="row promotion slider">
            <div class="ml-1 mr-1">
             <div class="activity-disc"><img class="activity-disc-img" src="dist/img/yuu.png"></div>
-            <div class="card " style="width: 18rem;">
+            <div class="card mb-4 shadow" style="width: 18rem;">
 
               <img class="card-img-top activity-img" src="dist/img/ghjghj.jpg" alt="Card image cap">
               <div class="card-body activity-body pt-2">
@@ -529,7 +556,7 @@
            </div>
             <div class="ml-1 mr-1">
              <div class="activity-disc"><img class="activity-disc-img" src="dist/img/yuu.png"></div>
-              <div class="card " style="width: 18rem;">
+              <div class="card mb-4 shadow" style="width: 18rem;">
 
                 <img class="card-img-top activity-img" src="dist/img/yut.png" alt="Card image cap">
                 <div class="card-body activity-body pt-2">
@@ -546,7 +573,7 @@
             </div>
             <div class="ml-1 mr-1">
               <div class="activity-disc"><img class="activity-disc-img" src="dist/img/yuu.png"></div>
-              <div class="card " style="width: 18rem;">
+              <div class="card mb-4 shadow" style="width: 18rem;">
 
                 <img class="card-img-top activity-img" src="dist/img/iui.jpg" alt="Card image cap">
                 <div class="card-body activity-body pt-2">
@@ -564,7 +591,7 @@
             <div class="ml-1 mr-1">
 
               <div class="activity-disc"><img class="activity-disc-img" src="dist/img/yuu.png"></div>
-              <div class="card " style="width: 18rem;">
+              <div class="card mb-4 shadow" style="width: 18rem;">
 
                 <img class="card-img-top activity-img" src="dist/img/ghjghj.jpg" alt="Card image cap">
                 <div class="card-body activity-body pt-2">
@@ -582,7 +609,7 @@
             <div class="ml-1 mr-1">
 
               <div class="activity-disc"><img class="activity-disc-img" src="dist/img/yuu.png"></div>
-              <div class="card " style="width: 18rem;">
+              <div class="card mb-4 shadow" style="width: 18rem;">
 
                 <img class="card-img-top activity-img" src="dist/img/yuty.png" alt="Card image cap">
                 <div class="card-body activity-body pt-2">
@@ -600,7 +627,7 @@
           <div class="ml-1 mr-1">
 
           <div class="activity-disc"><img class="activity-disc-img" src="dist/img/yuu.png"></div>
-          <div class="card " style="width: 18rem;">
+          <div class="card mb-4 shadow" style="width: 18rem;">
 
             <img class="card-img-top activity-img" src="dist/img/ghjghj.jpg" alt="Card image cap">
             <div class="card-body activity-body pt-2">
@@ -633,7 +660,7 @@
           <div class="row artical slider">
 
             <div class="artical-col">
-              <div class="card tours-card " style="background: url(dist/img/uyi.jpg)">
+              <div class="card tours-card mb-4 shadow" style="background: url(dist/img/uyi.jpg)">
                 <div class="card-body tours-card-body">
                   <p class="card-text offer-section-text mb-0">8 Days</p>
                   <h3 class="mb-0 tours-card-h3">Wildlife Tour</h3>
@@ -644,7 +671,7 @@
               </div>
             </div>
             <div class="artical-col">
-              <div class="card tours-card" style="background: url(dist/img/fghfgh.jpg)">
+              <div class="card tours-card mb-4 shadow" style="background: url(dist/img/fghfgh.jpg)">
                 <div class="card-body tours-card-body">
                   <p class="card-text offer-section-text mb-0">18 Days</p>
                   <h3 class="mb-0 tours-card-h3">Sri Lanka Heritage</h3>
@@ -658,7 +685,7 @@
               </div>
             </div>
             <div class=" artical-col">
-              <div class="card tours-card" style="background: url(dist/img/uyi.jpg)">
+              <div class="card tours-card mb-4 shadow" style="background: url(dist/img/uyi.jpg)">
                 <div class="card-body tours-card-body">
                   <p class="card-text offer-section-text mb-0">8 Days</p>
                   <h3 class="mb-0 tours-card-h3">Wildlife Tour</h3>
@@ -672,7 +699,7 @@
               </div>
             </div>
             <div class=" artical-col">
-              <div class="card tours-card" style="background: url(dist/img/uyi.jpg)">
+              <div class="card tours-card mb-4 shadow" style="background: url(dist/img/uyi.jpg)">
                 <div class="card-body tours-card-body">
                   <p class="card-text offer-section-text mb-0">8 Days</p>
                   <h3 class="mb-0 tours-card-h3">Wildlife Tour</h3>
@@ -686,7 +713,7 @@
               </div>
             </div>
             <div class="  artical-col">
-              <div class="card tours-card" style="background: url(dist/img/fghfgh.jpg)">
+              <div class="card tours-card mb-4 shadow" style="background: url(dist/img/fghfgh.jpg)">
                 <div class="card-body tours-card-body">
                   <p class="card-text offer-section-text mb-0">18 Days</p>
                   <h3 class="mb-0 tours-card-h3">Sri Lanka Heritage</h3>
@@ -700,7 +727,7 @@
               </div>
             </div>
             <div class=" artical-col">
-              <div class="card tours-card" style="background: url(dist/img/uyi.jpg)">
+              <div class="card tours-card mb-4 shadow" style="background: url(dist/img/uyi.jpg)">
                 <div class="card-body tours-card-body">
                   <p class="card-text offer-section-text mb-0">8 Days</p>
                   <h3 class="mb-0 tours-card-h3">Wildlife Tour</h3>
@@ -736,7 +763,7 @@
               <div class="row gift-row  gift slider">
                 <div class="ml-1 mr-2">
                   <div class="activity-disc"><img class="gift-dis-img" src="dist/img/yuu.png"></div>
-                  <div class="card gift-card ">
+                  <div class="card gift-card mb-4 shadow">
                     <img class="card-img-top gift-img" src="dist/img/elep.png" alt="Card image cap">
 
                     <div class="card-body pl-0 pt-5 pr-0">
@@ -749,8 +776,8 @@
                 </div>
                 <div class="ml-1 mr-2">
                   <div class="activity-disc"><img class="gift-dis-img" src="dist/img/yuu.png"></div>
-                  <div class="card gift-card ">
-                    <img class="card-img-top gift-img" src="dist/img/elep.png" alt="Card image cap">
+                  <div class="card gift-card mb-4 shadow">
+                    <img class="card-img-top gift-img " src="dist/img/elep.png" alt="Card image cap">
 
                     <div class="card-body pl-0 pt-5 pr-0">
                       <p class="gift-title mb-0">Mirror Crafted Woode Elephant</p>
@@ -762,7 +789,7 @@
                 </div>
                 <div class="ml-1 mr-2">
                   <div class="activity-disc"><img class="gift-dis-img" src="dist/img/yuu.png"></div>
-                  <div class="card gift-card ">
+                  <div class="card gift-card mb-4 shadow">
                     <img class="card-img-top gift-img" src="dist/img/elep.png" alt="Card image cap">
 
                     <div class="card-body pl-0 pt-5 pr-0">
@@ -775,7 +802,7 @@
                 </div>
 
                 <div class="ml-1 mr-2">
-                  <div class="card gift-card">
+                  <div class="card gift-card mb-4 shadow">
                     <img class="card-img-top gift-img" src="dist/img/gift.png" alt="Card image cap">
                     <div class="card-body pl-0 pt-5 pr-0">
                       <p class="gift-title mb-0">Mirror Crafted Woode Elephant</p>
@@ -787,7 +814,7 @@
                 </div>
 
                 <div class="ml-1 mr-2">
-                  <div class="card  gift-card">
+                  <div class="card  gift-card mb-4 shadow">
                     <img class="card-img-top gift-img" src="dist/img/elep.png" alt="Card image cap">
                     <div class="card-body pl-0 pt-5 pr-0">
                       <p class="gift-title mb-0">Mirror Crafted Woode Elephant</p>
@@ -810,7 +837,7 @@
 
 
             <div class="col-md-3 col-lg-3 col-sm-6 pb-2">
-              <div class="card cool-card" style="background: url(dist/img/cool-hotel.png)">
+              <div class="card cool-card " style="background: url(dist/img/cool-hotel.png)">
                 <div class="card-body cool-card-body">
                   <p class="card-text offer-section-text mb-0 form">FROM THE BLOG</p>
                   <h3 class="mb-0 tours-card-h3">Wildlife Tour</h3>
@@ -965,7 +992,7 @@
     $(document).ready(function () {
         $('.thing').slick({
             dots: false,
-            arrows:true,
+            arrows:false,
             autoplay:true,
             speed:400,
 
@@ -995,7 +1022,7 @@
                     breakpoint: 480,
                     settings: {
                         arrows: false,
-                        autoplay:true,
+                        autoplay:false,
                         centerMode: false,
                         centerPadding: '40px',
                         slidesToShow: 1
@@ -1035,7 +1062,7 @@
                     breakpoint: 576,
                     settings:{
                         arrows: false,
-                        autoplay:true,
+                        autoplay:false,
                         centerMode: false,
                         centerPadding: '40px',
                         slidesToShow: 2
@@ -1066,7 +1093,7 @@
                     breakpoint: 480,
                     settings: {
                         arrows: false,
-                        autoplay:true,
+                        autoplay:false,
                         centerMode: false,
                         centerPadding: '40px',
                         slidesToShow: 1
@@ -1076,7 +1103,7 @@
                     breakpoint: 767,
                     settings:{
                         arrows: false,
-                        autoplay:true,
+                        autoplay:false,
                         centerMode: false,
                         centerPadding: '40px',
                         slidesToShow: 2
