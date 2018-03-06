@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4360a8f-2e26-494a-b32d-a9c391313f5c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/img/avatar-2.jpg" afterPath="$PROJECT_DIR$/dist/img/avatar-2.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/agency.css" afterPath="$PROJECT_DIR$/dist/css/agency.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/vendor/jquery-easing/jquery.easing.compatibility.js" afterPath="$PROJECT_DIR$/dist/vendor/jquery-easing/jquery.easing.compatibility.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/vendor/jquery-easing/jquery.easing.js" afterPath="$PROJECT_DIR$/dist/vendor/jquery-easing/jquery.easing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/vendor/jquery-easing/jquery.easing.min.js" afterPath="$PROJECT_DIR$/dist/vendor/jquery-easing/jquery.easing.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hoteList.html" afterPath="$PROJECT_DIR$/hoteList.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -432,7 +425,7 @@
       <workItem from="1520009984498" duration="602000" />
       <workItem from="1520064230692" duration="4000" />
       <workItem from="1520224306982" duration="24290000" />
-      <workItem from="1520330004650" duration="118000" />
+      <workItem from="1520330004650" duration="185000" />
     </task>
     <task id="LOCAL-00001" summary="MOA Web">
       <created>1519385260929</created>
@@ -476,11 +469,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520251069138</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Email Temlate">
+      <created>1520330164903</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1520330164903</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151117000" />
+    <option name="totallyTimeSpent" value="151184000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="43" y="-4" width="1323" height="772" extended-state="6" />
