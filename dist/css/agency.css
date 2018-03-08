@@ -769,6 +769,48 @@ cool-text{
   font-weight: bold;
   border: solid 1px #00AAE5;
 }
+
+/*HOTEL PAGE CSS*/
+.hotel-secLink{
+  font-weight: bold;
+}
+.hotel-page-rate{
+  color: #00AAE5;
+  font-weight: bold;
+  font-size: 22px;
+}
+.hotel-page-room-de{
+  font-size: 20px;
+  font-weight: bold;
+}
+.hotel-page-tea{
+  font-size: 10px;
+  color: #048404;
+  font-weight: bold;
+}
+.hotel-ico{
+  margin-top: -11px;
+}
+.hotel-page-cusoto{
+  font-size: 28px;
+  line-height: 33px;
+}
+.book-now-btn{
+  font-size: 15px;
+  padding: 7px 13px;
+  border-radius: 0px;
+  background: #00AAE5;
+  color:#fff;
+}
+.rate-fot{
+  font-size: 12px;
+}
+.room-name{
+  font-size: 16px;
+}
+.font-color{
+  color:#00AAE5;
+}
 /**/
 
 @media (max-width: 1080px){
@@ -921,6 +963,8 @@ img::-moz-selection {
   background-size: cover;
   border-top: solid 5px #fdea19;
 }
+
+
 
 
 .intro-text {
@@ -1344,11 +1388,18 @@ header.masthead .intro-text .intro-heading {
     #portfolio .portfolio-item {
       margin: 0 0 30px;
     }
-
+    .list-hot{
+      margin-top: 0px;
+    }
     .serch-con {
       padding: 0px;
     }
-
+    .full-row {
+      margin-left: 16%;
+      margin-right: 16%;
+      margin-top: 2%;
+      margin-bottom: 2%;
+    }
     .filter-hotel {
       background: #d6f2fc;
       padding: 18px;
